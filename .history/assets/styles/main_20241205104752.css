@@ -1,12 +1,8 @@
 /* Primary Styles for used in constructor */
 :root{
-    --primary-color:#ffffff;
-    --secondary-color:#000000;
-
+    --primary-color:#f0f0f0;
     --primary-button-color: #E55858;
-    --text-trash-color:#CB7E20;
-    --primary-text-color:#ffffff;
-    --component-effect-color:#5601C8;
+    --primary-dark-mode:
 }
 
 /* Main Styles General */
