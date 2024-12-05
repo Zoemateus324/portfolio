@@ -50,10 +50,6 @@ h1{
     width:100%;
     padding:0.5rem 1rem;
 }
-.header_toggle{
-    display:flex;
-    justify-content:flex-end;
-}
 
 .header_brand .brand_logo{
     width:3.25rem;
@@ -89,17 +85,13 @@ h1{
     align-items:center;
     gap:.5rem;
 }
-.menu_principal{
-    gap:1.5rem;
-}
+
 
 .menu_link.active .menu_icon, .menu_text{
     color:var(--primary-color);
     font-weight:600;
 }
-.header_nav{
-    display:none;
-}
+
 
 
 
@@ -119,13 +111,4 @@ h1{
     .menu_mobile{
         display:none;
     }
-    .header_nav{
-    display:flex;
-}
-
-.header_nav,
-.header_toggle{
-    min-width:30%;
-}
-
 }

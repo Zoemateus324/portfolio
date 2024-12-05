@@ -50,10 +50,6 @@ h1{
     width:100%;
     padding:0.5rem 1rem;
 }
-.header_toggle{
-    display:flex;
-    justify-content:flex-end;
-}
 
 .header_brand .brand_logo{
     width:3.25rem;
@@ -122,10 +118,8 @@ h1{
     .header_nav{
     display:flex;
 }
-
-.header_nav,
 .header_toggle{
-    min-width:30%;
+    
 }
 
 }

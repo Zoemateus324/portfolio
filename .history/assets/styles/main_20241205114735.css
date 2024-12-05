@@ -13,7 +13,6 @@
     --link-color:#9a9a9c;
     --icon-color:#c7c8c9;
     --text-color:#ffffff;
-    --border-color:#28292E;
 }
 
 /* Main Styles General */
@@ -50,10 +49,6 @@ h1{
     width:100%;
     padding:0.5rem 1rem;
 }
-.header_toggle{
-    display:flex;
-    justify-content:flex-end;
-}
 
 .header_brand .brand_logo{
     width:3.25rem;
@@ -70,9 +65,7 @@ h1{
     align-items:center;
     background:var(--primary-bg-color);
 }
-.menu_item{
-    width:100%;
-}
+
 .menu_mobile{
     width:100vw;
     position:fixed;
@@ -87,21 +80,8 @@ h1{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    gap:.5rem;
+    gap:.625rem;
 }
-.menu_principal{
-    gap:1.5rem;
-}
-
-.menu_link.active .menu_icon, .menu_text{
-    color:var(--primary-color);
-    font-weight:600;
-}
-.header_nav{
-    display:none;
-}
-
-
 
 .menu_icon, .menu_text{
     color:var(--text-color);
@@ -113,19 +93,4 @@ h1{
 .menu_text{
     font-size:.75rem;
     text-transform:uppercase;
-}
-
-@media(min-width:768px){
-    .menu_mobile{
-        display:none;
-    }
-    .header_nav{
-    display:flex;
-}
-
-.header_nav,
-.header_toggle{
-    min-width:30%;
-}
-
 }

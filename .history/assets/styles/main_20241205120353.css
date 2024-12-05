@@ -122,10 +122,8 @@ h1{
     .header_nav{
     display:flex;
 }
-
-.header_nav,
 .header_toggle{
-    min-width:30%;
+    min-width:40%;
 }
 
 }

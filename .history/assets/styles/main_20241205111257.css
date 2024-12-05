@@ -1,0 +1,33 @@
+/* Primary Styles for used in constructor */
+:root{
+    --primary-color:#ffffff;
+    --primary-bg-color:#000000;
+    --secondary-bg-color:#28292E
+
+    --primary-button-color: #E55858;
+    --text-trash-color:#CB7E20;
+    --primary-text-color:#ffffff;
+    --component-effect-color:#5601C8;
+}
+
+/* Main Styles General */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    vertical-align:baseline;
+    list-style:none;
+}
+
+/* Styled of body */
+body{
+    background:var(--primary-bg-color);
+}
+.bi-sun{
+    color:var(--primary-color);
+}
+
+h1{
+    color:var(--primary-color);
+}
