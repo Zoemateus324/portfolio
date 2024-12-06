@@ -202,7 +202,6 @@ border:1px solid var(--primary-color);
 .habilidades{
     display:flex;
     flex-direction:column;
-    justify-content:flex-start;
     align-items:center;
     padding: 6.25rem 1rem 2rem 1rem;
     background:var(--secondary-br-color);
@@ -211,28 +210,6 @@ border:1px solid var(--primary-color);
 .habilidades h2{
     text-transform:none;
 }
-
-
-
-.skilss h1{
-    text-transform:none
-}
-.skills_list{
-    display:flex;
-    flex-flow:row wrap;
-    justify-content:space-between;
-    gap:.5rem;
-}
-
-.skills_item{
-    width:4.8rem;
-    height:4.8rem;
-    aspect-ratio1/1;
-    border: 1px solid var(--border-color);
-}
-
-
-
 
 .main_content1{
     display:flex;
