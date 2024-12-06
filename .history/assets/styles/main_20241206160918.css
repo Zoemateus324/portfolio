@@ -59,7 +59,6 @@ i{
 h1{
    
     font-size:2.5rem;
-    font-weight:200;
 }
 h1, h2,h1{
     font-family:'Parkinsans', sans-serif;
@@ -100,7 +99,6 @@ p{
     display:flex;
     align-items:center;
     background:var(--primary-bg-color);
-    gap:1rem;
 }
 .menu_item{
     width:100%;
@@ -173,7 +171,7 @@ footer p{
 
 
 .menu_social{
-    gap:1.5rem;
+    gap:1rem;
 }
 .btn{
     display:flex;

@@ -100,7 +100,6 @@ p{
     display:flex;
     align-items:center;
     background:var(--primary-bg-color);
-    gap:1rem;
 }
 .menu_item{
     width:100%;
