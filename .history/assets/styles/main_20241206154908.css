@@ -118,9 +118,6 @@ h1, h2,h1{
 }
 
 main{
-    display:flex;
-    flex-direction:column;
-    gap:2rem;
     padding:2.5rem 1rem;
 }
 footer p{

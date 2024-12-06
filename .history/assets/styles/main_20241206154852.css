@@ -118,12 +118,9 @@ h1, h2,h1{
 }
 
 main{
-    display:flex;
-    flex-direction:column;
-    gap:2rem;
-    padding:2.5rem 1rem;
+    padding:5rem;
 }
-footer p{
+footer{
     font-size:.875rem;
     text-align:center;
 }

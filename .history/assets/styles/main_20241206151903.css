@@ -16,24 +16,7 @@
     --border-color:#28292E;
     --especial-color:#B19777;
 }
-:root[data-theme='light']{
-    --primary-color:#00000f;
 
-    --primary-bg-color:##E9E9E9;
-    --secondary-bg-color:#C7C8C9;
-    --border-color:#C7C8C9;
-
-
-
-    --title-color:#0B0B0f;
-    --text-color:#28292E;
-    --link-color:#28292E;
-    --icon-color:#56575A;
-}
-
-html[data-theme='light'].brand_logo{
-    filter:invert(1);
-}
 /* Main Styles General */
 
 *{
@@ -59,10 +42,6 @@ i{
 h1{
     color:var(--title-color);
 }
-h1, h2,h1{
-    font-family:'Parkinsans', sans-serif;
-    text-transform:uppercase;
-}
 
 .header{
     display:flex;
@@ -85,8 +64,6 @@ h1, h2,h1{
 #toggleTheme{
     font-size:1.5rem;
     color:var(--primary-color);
-    cursor:pointer;
-    transition:ease-in-out .4s;
 }
 
 .menu{
@@ -115,17 +92,6 @@ h1, h2,h1{
 }
 .menu_principal{
     gap:1.5rem;
-}
-
-main{
-    display:flex;
-    flex-direction:column;
-    gap:2rem;
-    padding:2.5rem 1rem;
-}
-footer p{
-    font-size:.875rem;
-    text-align:center;
 }
 
 .menu_link.active .menu_icon, .menu_text{
@@ -165,14 +131,13 @@ footer p{
 
 .header_nav,
 .header_toggle{
-    min-width:40%;
+    min-width:30%;
 }
 
 }
-@media(min-width:1400px){
+@media(min-width:1408px){
      .header{
         position:fixed;
         border-bottom: 1px solid var(--border-color);
-        padding:1rem 15rem;
     }
 }

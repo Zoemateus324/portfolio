@@ -59,10 +59,6 @@ i{
 h1{
     color:var(--title-color);
 }
-h1, h2,h1{
-    font-family:'Parkinsans', sans-serif;
-    text-transform:uppercase;
-}
 
 .header{
     display:flex;
@@ -117,17 +113,6 @@ h1, h2,h1{
     gap:1.5rem;
 }
 
-main{
-    display:flex;
-    flex-direction:column;
-    gap:2rem;
-    padding:2.5rem 1rem;
-}
-footer p{
-    font-size:.875rem;
-    text-align:center;
-}
-
 .menu_link.active .menu_icon, .menu_text{
     color:var(--primary-color);
     font-weight:600;
@@ -169,7 +154,7 @@ footer p{
 }
 
 }
-@media(min-width:1400px){
+@media(min-width:1010px){
      .header{
         position:fixed;
         border-bottom: 1px solid var(--border-color);

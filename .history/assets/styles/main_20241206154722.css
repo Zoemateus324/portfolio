@@ -61,7 +61,6 @@ h1{
 }
 h1, h2,h1{
     font-family:'Parkinsans', sans-serif;
-    text-transform:uppercase;
 }
 
 .header{
@@ -115,17 +114,6 @@ h1, h2,h1{
 }
 .menu_principal{
     gap:1.5rem;
-}
-
-main{
-    display:flex;
-    flex-direction:column;
-    gap:2rem;
-    padding:2.5rem 1rem;
-}
-footer p{
-    font-size:.875rem;
-    text-align:center;
 }
 
 .menu_link.active .menu_icon, .menu_text{

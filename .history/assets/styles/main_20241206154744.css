@@ -117,17 +117,6 @@ h1, h2,h1{
     gap:1.5rem;
 }
 
-main{
-    display:flex;
-    flex-direction:column;
-    gap:2rem;
-    padding:2.5rem 1rem;
-}
-footer p{
-    font-size:.875rem;
-    text-align:center;
-}
-
 .menu_link.active .menu_icon, .menu_text{
     color:var(--primary-color);
     font-weight:600;
