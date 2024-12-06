@@ -199,9 +199,6 @@ footer p{
 border:1px solid var(--primary-color);
 }
 
-.habilidades h2{
-    text-transform:none;
-}
 
 .main_content1{
     display:flex;

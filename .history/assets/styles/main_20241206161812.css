@@ -65,7 +65,6 @@ h1, h2,h1{
     font-family:'Parkinsans', sans-serif;
     text-transform:uppercase;
      color:var(--title-color);
-     font-weight:200;
 }
 p{
     font-size:1.5rem;
@@ -199,9 +198,6 @@ footer p{
 border:1px solid var(--primary-color);
 }
 
-.habilidades h2{
-    text-transform:none;
-}
 
 .main_content1{
     display:flex;
