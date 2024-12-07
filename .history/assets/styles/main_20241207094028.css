@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+/* Primary Styles for used in constructor */
+:root, :root[data-theme='dark']{
+    --primary-color:#ffffff;
+    --primary-bg-color:#000000;
+    --secondary-bg-color:#28292E
+
+    --primary-button-color: #E55858;
+    --text-trash-color:#CB7E20;
+    --primary-text-color:#ffffff;
+    --component-effect-color:#5601C8;
+    --title-color:#9a9a9c;
+    --link-color:#9a9a9c;
+    --icon-color:#c7c8c9;
+    --text-color:#ffffff;
+    --border-color:#28292E;
+    --especial-color:#B19777;
+}
+:root[data-theme='light']{
+    --primary-color:#00000f;
+
+    --primary-bg-color:##E9E9E9;
+    --secondary-bg-color:#C7C8C9;
+    --border-color:#C7C8C9;
+
+
+
+    --title-color:#0B0B0f;
+    --text-color:#28292E;
+    --link-color:#28292E;
+    --icon-color:#56575A;
+}
+
+html[data-theme='light'].brand_logo{
+    filter:invert(1);
+}
+/* Main Styles General */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    vertical-align:baseline;
+    list-style:none;
+}
+
+/* Styled of body */
+body{
+    background:var(--primary-bg-color);
+    font-family: "Parkinsans", sans-serif;
+}
+a{
+    text-decoration:none;
+}
+i{
+    color:var(--icon-color);
+}
+
+h1{
+   
+    font-size:2.5rem;
+    font-weight:200;
+}
+h1, h2,h1{
+    font-family:'Parkinsans', sans-serif;
+    text-transform:uppercase;
+     color:var(--title-color);
+     font-weight:200;
+}
+p{
+    font-size:1.5rem;
+    text-align:justify;
+}
+
+.header{
+    display:flex;
+    flex-direction:row wrap;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    padding:0.5rem 1rem;
+}
+.header_toggle{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.header_brand .brand_logo{
+    width:3.25rem;
+    height:3.25rem;
+}
+
+#toggleTheme{
+    font-size:1.5rem;
+    color:var(--primary-color);
+    cursor:pointer;
+    transition:ease-in-out .4s;
+}
+
+.menu{
+    display:flex;
+    align-items:center;
+    background:var(--primary-bg-color);
+    gap:1rem;
+}
+.menu_item{
+    width:100%;
+}
+.menu_mobile{
+    width:100vw;
+    position:fixed;
+    bottom:0;
+    justify-content:space-between;
+    border-top:1px solid var(--border-color);
+
+}
+
+.menu_mobile .menu_link{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:.5rem;
+}
+.menu_principal{
+    gap:1.5rem;
+}
+
+main{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+    padding:2.5rem 1rem;
+}
+footer p{
+    font-size:.875rem;
+    text-align:center;
+    margin-bottom:5rem;
+}
+
+.menu_link.active .menu_icon, .menu_text{
+    color:var(--primary-color);
+    font-weight:600;
+}
+.header_nav{
+    display:none;
+}
+
+
+
+.menu_icon, .menu_text{
+    color:var(--text-color);
+}
+
+.menu_icon{
+    font-size:1.5rem;
+}
+.menu_text{
+    font-size:.75rem;
+    text-transform:uppercase;
+}
+
+@media(min-width:768px){
+    .header{
+        position:fixed;
+        border-bottom: 1px solid var(--border-color);
+        padding:1rem 0
+    }
+    .menu_mobile{
+        display:none;
+    }
+    .header_nav{
+    display:flex;
+}
+
+
+.menu_social{
+    gap:1.5rem;
+}
+.btn{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:0.625rem;
+    width:100%;
+    background:transparent;
+    border-radius:3.125rem;
+    
+}
+.btn span, .btn i{
+    font-size:1.25rem;
+    text-transform:uppercase;
+}
+
+.btn--primary span{
+    color:var(--primary-color);
+}
+.btn--primary{
+border:1px solid var(--primary-color);
+}
+
+.habilidades{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    padding: 6.25rem 1rem 2rem 1rem;
+    background:var(--secondary-br-color);
+    margin-top:-5.5rem;
+}
+.habilidades h2{
+    text-transform:none;
+}
+
+
+
+.skills h1{
+    
+    text-transform:none
+
+}
+.skills_list{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    gap:.5rem;
+}
+
+.skills_item{
+    width:2.8rem;
+    height:.8rem;
+    aspect-ratio1/1;
+    border: 1px solid var(--border-color);
+}
+
+
+
+
+.main_content1{
+    display:flex;
+    flex-direction:column;
+    gap:1.5rem;
+    padding:20px;
+}
+.main_content2 iframe{
+    width:100%;
+    aspect-ratio:16/9;
+}
+
+
+.header_nav,
+.header_toggle{
+    min-width:40%;
+}
+
+}
+@media(min-width:1400px){
+     .header{
+        position:fixed;
+        border-bottom: 1px solid var(--border-color);
+        padding:1rem 15rem;
+    }
+}
